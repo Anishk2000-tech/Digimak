@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+nav{
+    justify-content: space-between;
+    display: flex;
+    background-image: linear-gradient(to bottom, orange, white, greenyellow);
+    height: 50px;
+    padding-bottom: 30px;
+    /* position: fixed;
+    width: 100%; */
+}
+nav > div >img{
+    width: 100px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+#serpad{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 6px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+/* #buttons{
+    width: 100px;
+    display: flex;
+} */
+nav button{
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: red;
+    background-color: blue;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+#bgimage > img{
+    width: 100%;
+}
+#bgimage > h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 100px;
+    color: orangered;
+}
+#bgimage > h5{
+    position: absolute;
+    top: 65%;
+    left: 28%;
+    font-size: 50px;
+    color: orange;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+#whoweare{
+    border: 2px solid grey;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(225, 224, 224);
+    border: none;
+}
+#whoweare > h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    color: orangered;
+    margin-bottom: 10px;
+}
+#whoweare > p{
+    color: black;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+#services{
+    border: 2px solid grey;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(225, 224, 224);
+    border: none;
+    padding-bottom: 20px;
+}
+#sermain{
+    border: 2px solid grey;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(225, 224, 224);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+#services > h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 60px;
+    color: orangered;
+    margin-bottom: 10px;
+    display: block;
+}
+#services img{
+    width: 460px;
+    height: 100px;
+}
+#serclass1{
+    background-color: maroon;
+}
+#serclass2{
+    background-color: blue;
+}
+#serclass3{
+    background-color: green;
+}
+#services li{
+    font-size: 18px;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+#pricing{
+    background-color:  rgb(225, 224, 224);
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+#pricing main{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+}
+#pricing > h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 60px;
+    color: orangered;
+    margin-bottom: 10px;
+    display: block;
+}
+#pricing div{
+    background-color: red;
+    width: 20rem;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+#div1{
+    margin-left: 50px;
+}
+#div3{
+    margin-right: 50px;
+}
+#pricing button{
+        background-color: blue;
+        font-size: 30px;
+        border: none;
+}
+#pricing h3{
+    font-size: 30px;
+}
+#pricing h5{
+    font-size: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+#chooseus > h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 60px;
+    color: orangered;
+    margin-bottom: 10px;
+    display: block;
+}
+#chooseus{
+    background-color: rgb(225, 224, 224);
+}
+#choose{
+    gap: 80px;
+    margin-left: 50px;
+}
+.fa-people-group{
+    font-size: 5rem;
+}
+.fa-handshake{
+    font-size: 5rem;
+}
+.fa-signal{
+    font-size: 5rem;
+}
+.fa-bullseye{
+    font-size: 5rem;
+}
+#chooseus h5{
+    font-size: 20px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+form{
+    width: 25%;
+    border: 1px solid rgb(221, 217, 217);
+    margin-top: 20px;
+    padding: 0px 40px 15px 40px;
+}
+
+
+form > h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: orangered;
+    margin-bottom: 10px;
+    /* display: block; */
+}
+form input{
+    margin: 20px;
+}
+form button{
+    margin-left: 150px;
+    color: blue;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+#left{
+    display: flex;
+    width: 60%;
+}
+#right{
+    display: flex;
+    width: 30%;
+    border-left: solid 1px grey;
+}
+footer li{
+    list-style-type: none;
+    color: white;
+}
+footer h3{
+    color: grey;
+    font-size: 13px;
+    margin-top: 0px;
+    padding: 0;
+}
+footer ul{
+    margin: 0;
+    list-style-type: none;
+}
